@@ -16,6 +16,8 @@
 		DC741FD3281777D3009678E7 /* ProjectThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC741FD2281777D3009678E7 /* ProjectThreeTests.swift */; };
 		DC741FDD281777D3009678E7 /* ProjectThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC741FDC281777D3009678E7 /* ProjectThreeUITests.swift */; };
 		DC741FDF281777D3009678E7 /* ProjectThreeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC741FDE281777D3009678E7 /* ProjectThreeUITestsLaunchTests.swift */; };
+		DC741FEE2817ACDE009678E7 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC741FED2817ACDE009678E7 /* secondViewController.swift */; };
+		DCD71E3C2817C27300B776E8 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD71E3B2817C27300B776E8 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DC741FD8281777D3009678E7 /* ProjectThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC741FDC281777D3009678E7 /* ProjectThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectThreeUITests.swift; sourceTree = "<group>"; };
 		DC741FDE281777D3009678E7 /* ProjectThreeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectThreeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC741FED2817ACDE009678E7 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		DCD71E3B2817C27300B776E8 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				DC741FBD281777CF009678E7 /* SceneDelegate.swift */,
 				DC741FBF281777CF009678E7 /* ViewController.swift */,
 				DC741FC1281777CF009678E7 /* Main.storyboard */,
+				DCD71E3B2817C27300B776E8 /* Restaurant.swift */,
+				DC741FED2817ACDE009678E7 /* secondViewController.swift */,
 				DC741FC4281777D3009678E7 /* Assets.xcassets */,
 				DC741FC6281777D3009678E7 /* LaunchScreen.storyboard */,
 				DC741FC9281777D3009678E7 /* Info.plist */,
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD71E3C2817C27300B776E8 /* Restaurant.swift in Sources */,
+				DC741FEE2817ACDE009678E7 /* secondViewController.swift in Sources */,
 				DC741FC0281777CF009678E7 /* ViewController.swift in Sources */,
 				DC741FBC281777CF009678E7 /* AppDelegate.swift in Sources */,
 				DC741FBE281777CF009678E7 /* SceneDelegate.swift in Sources */,

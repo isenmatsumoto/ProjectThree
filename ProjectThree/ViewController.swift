@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         centerMapOnLocation(location: initialLocation)
         // Do any additional setup after loading the view.
+        title = "Eatery Locations"
         
         let restaurantOne = Restaurant(title: "Nagoya Ramen & Bakery", type: "Japanese", coordinate: CLLocationCoordinate2D(latitude: 21.333312228343928, longitude: -158.05174666066475))
         

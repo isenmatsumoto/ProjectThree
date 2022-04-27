@@ -66,7 +66,7 @@ class secondViewController: UIViewController, UITableViewDataSource, UITableView
     
         switch segmentedControl.selectedSegmentIndex {
         case 0:
-            let tipNumber = Int(textField.text!)!
+            let tipNumber = Float(textField.text!)!
                     let answer = (tipNumber * 15)/100
                     tipLabel.text = "\(answer)"
             
@@ -74,14 +74,14 @@ class secondViewController: UIViewController, UITableViewDataSource, UITableView
             percentageLabel.text = "(15%):"
             
         case 1:
-            let tipNumber = Int(textField.text!)!
+            let tipNumber = Float(textField.text!)!
                     let answer = (tipNumber * 18)/100
                     tipLabel.text = "\(answer)"
             
             totalLabel.text = "\(answer + tipNumber)"
             percentageLabel.text = "(18%):"
         case 2:
-            let tipNumber = Int(textField.text!)!
+            let tipNumber = Float(textField.text!)!
                     let answer = (tipNumber * 20)/100
                     tipLabel.text = "\(answer)"
             
